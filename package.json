@@ -1,0 +1,64 @@
+{
+  "name": "1keeper-applet",
+  "version": "1.0.0",
+  "description": "1keeper applet lib",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1keeper-lab/1keeper-applet.git"
+  },
+  "author": "1keeper lab",
+  "license": "MIT",
+  "server":"https://testapi1.1keeper.com",
+  "homepage": "https://1keeper.com",
+  "keywords": [
+    "android",
+    "ios",
+    "1keeper",
+    "applet"
+  ],
+  "scripts": {
+    "build":"node ./script.js"
+  },
+  "dependencies": {
+    "@react-navigation/bottom-tabs": "^6.5.8",
+    "@react-navigation/drawer": "^6.6.3",
+    "@react-navigation/material-bottom-tabs": "^6.2.16",
+    "@react-navigation/material-top-tabs": "^6.6.3",
+    "@react-navigation/native": "^6.1.7",
+    "@react-navigation/native-stack": "^6.9.13",
+    "events": "^3.3.0",
+    "i18n-js": "^4.3.2",
+    "lottie-ios": "^4.2.0",
+    "lottie-react-native": "^6.1.2",
+    "node-libs-browser": "^2.2.1",
+    "react": "18.1.0",
+    "react-native": "0.70.1",
+    "react-native-fast-image": "^8.6.3",
+    "react-native-gesture-handler": "^2.12.1",
+    "react-native-linear-gradient": "^2.8.3",
+    "react-native-localize": "^3.0.2",
+    "react-native-pager-view": "^6.2.0",
+    "react-native-paper": "^5.10.4",
+    "react-native-reanimated": "^3.5.1",
+    "react-native-safe-area-context": "^4.7.1",
+    "react-native-screens": "^3.24.0",
+    "react-native-swiper": "^1.6.0",
+    "react-native-tab-view": "^3.5.2",
+    "react-native-vector-icons": "^10.0.0",
+    "react-native-webview": "^13.6.2",
+    "web3": "^1.2.11",
+    "whatwg-fetch": "^3.6.19"
+  },
+  "overrides": {
+    "react-native-reanimated": "^3.5.1"
+  },
+  "devDependencies": {
+    "adm-zip": "^0.5.10",
+    "crypto": "^1.0.1",
+    "form-data": "^4.0.0",
+    "image-size": "^1.0.2",
+    "node-fetch": "^3.3.2",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
