@@ -9,7 +9,7 @@
   },
   "author": "1keeper lab",
   "license": "MIT",
-  "server": "https://testapi1.1keeper.com",
+  "server": "https://api.1keeper.com",
   "homepage": "https://1keeper.com",
   "keywords": [
     "android",
